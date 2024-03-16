@@ -138,7 +138,13 @@ Couples Resort Responsive Build
    height: 67px;
 }
 
-#hero-heading-box {
+.hero-heading-box {
+   width: 380px;
+   align-self: end;
+}
+
+.hero-heading-box2 {
+   width: 380px;
    align-self: end;
 }
 
