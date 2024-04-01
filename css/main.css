@@ -117,10 +117,22 @@ Couples Resort Responsive Build
    height: 200px;
 }
 
+/* Rooms - Masters.css */
 #hero2 {
-   background: url(../images/Master_Header_img\ 1.jpg) no-repeat;
+   background: url(../images/Masters.jpg) no-repeat;
    height: 200px;
 }
+
+#detailrooms {
+   margin-right: 5px;
+}
+
+#subdropdown {
+   font-size: 14px;
+   margin-top: 8px;
+   margin-left: 13px;
+}
+
 .book-now {
    background-color: #9a2018;
    color: #fff;
@@ -167,8 +179,10 @@ Couples Resort Responsive Build
    z-index: 1;
 }
 
+/* Packages - All-Inlcusive */
+
 #hero-heading-box3 {
-   width: 275px;
+   width: 250px;
    align-self: end;
    position: absolute;
 }
@@ -192,11 +206,10 @@ Couples Resort Responsive Build
 .hero-img-h4 {
    color: red;
    background: rgb(255, 255, 255);
-   padding: 13px 60px;
+   padding: 13px 45px;
    padding-bottom: 10px;
    font-size: 25px;
 }
-
 
 #hero-summary p {
    font-size: 12px;
@@ -204,6 +217,15 @@ Couples Resort Responsive Build
    margin-bottom: 20px;
 }
 
+/* algonquin park */
+
+#hero-img-h5 {
+   color: red;
+   background: rgb(255, 255, 255);
+   padding: 15px 95px;
+   padding-bottom: 10px;
+   font-size: 25px;
+}
 /* 4. ---Main Hero Image Contact--- */
 
 .fas {
@@ -334,7 +356,120 @@ Couples Resort Responsive Build
    font-style: italic;
 }
 
+#faq-con {
+   background-color: #f4f4f4;
+   padding-top: 35px;
+   padding-bottom: 30px;
+}
+
+#faq-con h2 {
+   font-size: 24px;
+   margin-bottom: 20px;
+}
+
+#faq-con h2 span {
+   color: #9a2018;
+   font-size: 16px;
+}
+
+.faq-items {
+   margin-bottom: 16px;
+}
+
+.faq-items h3 {
+   background: #e8e7e7;
+   padding: 16px;
+   font-size: 16px;
+}
+
+.faq-items ul {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+
+.faq-items li {
+   padding: 8px 0;
+   border-bottom: 1px solid #9a2018;
+}   
+
+.faq-items a {
+   color: inherit;
+   font-size: 13px;
+}
+
+#faq-text-con {
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
 /* 7. ---Contact--- */
+
+#contact-hero-con {
+   background: url(../images/contact-hero.jpg);
+   height: 195px;
+}
+
+#contact-hero-heading-box {
+   align-self: end;
+}
+
+#contact-hero-text {
+   margin-top: 15px;
+   margin-bottom: 25px;
+}
+
+#contact-hero-address p {
+   margin-bottom: 20px;
+   font-size: 14px;
+   line-height: 22px;
+}
+
+#contact-hero-address {
+   margin-bottom: 30px;
+}
+
+#contact-hero-address h3 {
+   margin-bottom: 25px;
+}
+
+
+
+#contact-hero-form form {
+   display: flex;
+   flex-direction: column;
+}
+
+#contact-hero-form input, textarea {
+   padding: 22px;
+   border: 2px solid #d6d6d6;
+   background-color: #f7f7f7;
+   border-radius: 5px;
+   margin-bottom: 30px;
+   font: inherit;
+   width: auto;
+}
+
+#contact-hero-form textarea {
+   height: 250px;
+}
+
+
+
+#contact-hero-form input[type="submit"] {
+   padding: 12px 28px;
+   background: #9a2018;
+   color: #fff;
+   border: none;
+   transition: all 200ms ease-in;
+   width: 150px;
+   align-self: flex-end;
+}
+
+#contact-hero-form input[type="submit"]:hover {
+   background-color: #626262;
+   border-radius: 0;
+}
 
 /* 8. ---Footer--- */
 
