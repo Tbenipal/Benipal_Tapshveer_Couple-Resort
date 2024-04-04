@@ -249,6 +249,74 @@ Couples Resort Responsive Build
 
 /* Packages - All-Inlcusive */
 
+#hero3 {
+   background: url(../images/All-Inclusive.jpg) no-repeat;
+   height: 200px;
+}
+
+#heroimg4 {
+   background: url(../images/inclusiveimg2.jpg) no-repeat;
+   height: 200px;
+}
+
+#heroimg5 {
+   margin-top: 50px;
+   background: url(../images/inclusiveimg4.jpg) no-repeat;
+   height: 200px;
+}
+
+.inclusive-img-h2 span, .inclusive-img-h3 span, .inclusive-img-h4 span{
+   color: #9a2018;
+   font-size: 12px;
+}
+
+.inclusive-img-h2 {
+   color: red;
+   background: rgb(255, 255, 255);
+   padding: 6px 15px;
+   font-size: 16px;
+}
+
+.inclusive-img-h3 {
+   color: red;
+   background: rgb(255, 255, 255);
+   padding: 6px 15px;
+   font-size: 16px;
+}
+
+.inclusive-img-h4 {
+   color: red;
+   background: rgb(255, 255, 255);
+   padding: 6px 15px;
+   font-size: 16px;
+}
+
+#inclusiveimg {
+   margin-bottom: 50px;
+   width: 382px;
+   height: 217px;
+   margin-right: auto;
+   margin-left: auto;
+   background-image: url(../images/inclusiveimg1.jpg) ;
+}
+
+#inclusiveimg1 {
+   width: 382px;
+   height: 217px;
+   margin-right: auto;
+   margin-left: auto;
+   background-image: url(../images/inclusiveimg3.jpg) ;
+}
+
+#inclusiveimg2 {
+   margin-bottom: 50px;
+   width: 382px;
+   height: 217px;
+   margin-right: auto;
+   margin-left: auto;
+   background-image: url(../images/inclusiveimg5.jpg) ;
+}
+
 #hero-heading-box3 {
    width: 250px;
    align-self: end;
