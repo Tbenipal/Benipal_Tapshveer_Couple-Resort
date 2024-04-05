@@ -367,6 +367,78 @@ Couples Resort Responsive Build
    font-size: 16px;
 }
 
+/* Algonquin Park */
+
+#hero4 {
+   background: url(../images/ALGONQUIN-PARK.jpg) no-repeat;
+   height: 200px;
+}
+
+#heroimg6 {
+   background: url(../images/algonquinimg2.jpg) no-repeat;
+   height: 200px;
+}
+
+#heroimg7 {
+   margin-top: 50px;
+   background: url(../images/algonquinimg4.jpg) no-repeat;
+   height: 200px;
+}
+
+.park-img-h2 span, .park-img-h3 span, .park-img-h4 span{
+   color: #9a2018;
+   font-size: 12px;
+}
+
+.park-img-h2 {
+   color: red;
+   background: rgb(255, 255, 255);
+   padding: 6px 15px;
+   font-size: 16px;
+}
+
+.park-img-h3 {
+   color: red;
+   background: rgb(255, 255, 255);
+   padding: 6px 15px;
+   font-size: 16px;
+}
+
+.park-img-h4 {
+   color: red;
+   background: rgb(255, 255, 255);
+   padding: 6px 15px;
+   font-size: 16px;
+}
+
+#parkimg {
+   margin-bottom: 50px;
+   width: 382px;
+   height: 217px;
+   margin-right: auto;
+   margin-left: auto;
+   background-image: url(../images/algonquinimg1.jpg) ;
+}
+
+#parkimg1 {
+   width: 382px;
+   height: 217px;
+   margin-right: auto;
+   margin-left: auto;
+   background-image: url(../images/algonquinimg3.jpg) ;
+}
+
+#parkimg2 {
+   margin-bottom: 50px;
+   width: 382px;
+   height: 217px;
+   margin-right: auto;
+   margin-left: auto;
+   background-image: url(../images/algonquinimg5.jpg) ;
+}
+
+
+
 /* 4. ---Main Hero Image Contact--- */
 
 .fas {
