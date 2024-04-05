@@ -359,10 +359,6 @@ Couples Resort Responsive Build
    margin-bottom: 20px;
 }
 
-/* algonquin park */
-
-
-
 #hero-img-h5 {
    color: red;
    background: rgb(255, 255, 255);
@@ -370,6 +366,7 @@ Couples Resort Responsive Build
    padding-bottom: 10px;
    font-size: 16px;
 }
+
 /* 4. ---Main Hero Image Contact--- */
 
 .fas {
@@ -608,13 +605,22 @@ Couples Resort Responsive Build
    color: #fff;
    border: none;
    transition: all 200ms ease-in;
-   width: 150px;
+   width: 100px;
    align-self: flex-end;
 }
 
 #contact-hero-form input[type="submit"]:hover {
-   background-color: #626262;
+   width: 150px;
+   background-color: red;
    border-radius: 0;
+}
+
+#Newsletter {
+   position: absolute; top: 4960px;
+}
+
+#Newsletter input[type="checkbox"]:checked + span::after {
+   content: "✅";
 }
 
 /* 8. ---Footer--- */
