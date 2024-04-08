@@ -247,6 +247,16 @@ Couples Resort Responsive Build
    z-index: 1;
 }
 
+#contact-hero-form input[type="checkbox"]:checked + span::after {
+   content: "✅";
+   display: inline;
+}
+
+.Newsletter2 input[type="checkbox"]:checked + span::after {
+   content: "✅";
+   display: inline-block;
+}
+
 /* Packages - All-Inlcusive */
 
 #hero3 {
@@ -687,12 +697,13 @@ Couples Resort Responsive Build
    border-radius: 0;
 }
 
-#Newsletter {
+.Newsletter {
    position: absolute; top: 4960px;
 }
 
-#Newsletter input[type="checkbox"]:checked + span::after {
+.Newsletter input[type="checkbox"]:checked + span::after {
    content: "✅";
+   display: inline-block;
 }
 
 /* 8. ---Footer--- */
