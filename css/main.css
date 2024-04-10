@@ -247,6 +247,10 @@ Couples Resort Responsive Build
    z-index: 1;
 }
 
+#contact-hero-form input[type="checkbox"]:checked + span::after {
+   content: "✅";
+}
+
 /* Packages - All-Inlcusive */
 
 #hero3 {
