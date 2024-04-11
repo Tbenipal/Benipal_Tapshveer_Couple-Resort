@@ -210,12 +210,14 @@ Couples Resort Responsive Build
    justify-content: center;
    align-items: center;
    font-style: italic;
-   transition:all 0.3s ease;
+   box-shadow: inset 0 0 0 0 #c41c1c;
+   transition:all ease-out .3s;
    cursor: pointer;
+   outline: none;
 }
 
 .book-now:hover {
-   background-color: rgb(196, 28, 28);
+   box-shadow: inset 150px 0 0 0 #c41c1c;
 }
 
 #book-now-hero {
